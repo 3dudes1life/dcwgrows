@@ -349,3 +349,5 @@ h1,h2,h3{color:var(--forest2);line-height:1.18}h1{font-size:clamp(2.15rem,6vw,4.
   .floating-wizard{right:12px;bottom:12px;padding:11px 14px}.floating-wizard span:last-child{font-size:.85rem}
   .site-search-modal{padding-top:5vh}.search-dialog{border-radius:23px}
 }
+
+.hero-cta-row{display:flex;flex-wrap:wrap;gap:12px}.btn-new-gardener{background:#dfeccf;color:#1f4a35}@media(max-width:760px){.hero-cta-row{display:grid;grid-template-columns:1fr}.hero-cta-row .btn{width:100%}}
