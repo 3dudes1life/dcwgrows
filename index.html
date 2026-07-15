@@ -23,13 +23,13 @@
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&amp;display=swap" rel="stylesheet"/>
 <link as="image" href="tropical-background.webp" rel="preload"/>
-<link href="dcw-ui-v5.css?v=20260715-5" rel="stylesheet"/>
+<link href="dcw-ui-v7.css?v=20260715-7" rel="stylesheet"/>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-GFB1YDW450"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-GFB1YDW450');</script>
 <script type="application/ld+json">
   [{"@context":"https://schema.org","@type":"Organization","name":"DCW Grows","url":"https://www.dcwgrows.com/","logo":"https://www.dcwgrows.com/DCWGrowsLOGO.webp","sameAs":["https://www.instagram.com/dcwgrows"]},{"@context":"https://schema.org","@type":"WebSite","name":"DCW Grows","url":"https://www.dcwgrows.com/"}]
   </script>
-</head>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Why are my plant's leaves turning yellow?","acceptedAnswer":{"@type":"Answer","text":"Yellow leaves may be caused by watering problems, light stress, nutrient issues, pests, or natural leaf aging. Use the DCW Grows Garden Wizard and include the plant type, watering schedule, light, and recent changes."}},{"@type":"Question","name":"Why are my tomato plants flowering but not producing tomatoes?","acceptedAnswer":{"@type":"Answer","text":"Tomato fruit set can be affected by extreme temperatures, poor pollination, excess nitrogen, water stress, or immature plants."}},{"@type":"Question","name":"How do I grow hibiscus cuttings?","acceptedAnswer":{"@type":"Answer","text":"Hibiscus cuttings can be rooted in a moist, well-draining medium with warmth, humidity, and bright indirect light."}},{"@type":"Question","name":"Can dragon fruit grow in pots?","acceptedAnswer":{"@type":"Answer","text":"Dragon fruit can grow in a large container with fast-draining soil, strong support, ample sun, and careful watering."}}]}</script></head>
 <body class="home-page">
 <a class="skip-link" href="#main-content">Skip to content</a>
 <header class="site-header">
@@ -53,7 +53,7 @@
 <a href="tips.html">Planting Tips</a>
 <a href="seo.html">About</a>
 <a href="https://www.instagram.com/dcwgrows" rel="noopener" target="_blank">Instagram</a>
-<a class="wizard-nav" href="#garden-wizard">🌱 Ask the Garden Wizard</a>
+<button aria-label="Search DCW Grows" class="site-search-trigger nav-search" type="button">🔎 <span>Search</span></button><a class="wizard-nav" href="#garden-wizard">🌱 Ask the Garden Wizard</a>
 </div>
 </nav>
 </header>
@@ -77,6 +77,10 @@
 <div class="wizard-glow"></div>
 <img alt="" fetchpriority="high" height="650" src="GardenWizard.webp" width="540"/>
 </div>
+</section><section aria-label="DCW Grows shop highlights" class="trust-strip">
+<div><strong>⭐ 4.9 Stars</strong><span>Happy Etsy customers</span></div>
+<div><strong>📦 900+ Sales</strong><span>Plants and garden goods shipped</span></div>
+<div><strong>🌱 Real Growing Help</strong><span>Support beyond delivery day</span></div>
 </section>
 <section aria-labelledby="path-heading" class="path-v2">
 <div class="path-heading-wrap">
@@ -98,6 +102,21 @@
 <div><span class="card-label">Plant problems welcome</span><h3>Ask the Wizard</h3><p>Get friendly help with watering, yellow leaves, pests, planting, and garden chaos.</p><strong>Ask a question <span aria-hidden="true">→</span></strong></div>
 </a>
 </div>
+</section><section class="start-here-section" id="start-here">
+<div class="start-copy">
+<span class="eyebrow">New gardeners welcome</span>
+<h2>🌱 New to gardening? Start here.</h2>
+<p>You do not need a green thumb, a giant yard, or a degree in plant drama. Start with the basics, learn what your plant actually needs, and grow from there.</p>
+<div class="btn-row start-actions">
+<a class="btn btn-primary" href="gardening101.html">Start Gardening 101</a>
+<button class="btn btn-secondary site-search-trigger" type="button">🔎 Find a Plant Guide</button>
+</div>
+</div>
+<div aria-label="Three steps for new gardeners" class="starter-steps">
+<article><span>1</span><div><strong>Pick something fun</strong><p>Choose a plant that fits your light, space, and patience level.</p></div></article>
+<article><span>2</span><div><strong>Learn the basics</strong><p>Get clear guidance on sun, soil, watering, and feeding.</p></div></article>
+<article><span>3</span><div><strong>Ask when it gets weird</strong><p>The Garden Wizard is ready when leaves start acting dramatic.</p></div></article>
+</div>
 </section>
 <section class="brand-story-v2">
 <div class="brand-story-copy">
@@ -112,7 +131,19 @@
 <div><strong>Real</strong><span>garden-tested help</span></div>
 </div>
 </section>
-<section aria-labelledby="wizard-heading" class="wizard-v2" id="garden-wizard">
+<section class="popular-questions">
+<div class="question-intro">
+<span class="eyebrow">Plant problems welcome</span>
+<h2>Popular questions for the Garden Wizard</h2>
+<p>Tap a question to jump to the Wizard, then paste it in and add what you are seeing.</p>
+</div>
+<div class="question-grid">
+<a data-wizard-question="Why are my plant's leaves turning yellow?" href="#garden-wizard"><span>🍂</span><strong>Why are my leaves turning yellow?</strong></a>
+<a data-wizard-question="Why are my tomato plants flowering but not producing tomatoes?" href="#garden-wizard"><span>🍅</span><strong>Why aren't my tomatoes producing?</strong></a>
+<a data-wizard-question="How do I root and grow hibiscus cuttings?" href="#garden-wizard"><span>🌺</span><strong>How do I grow hibiscus cuttings?</strong></a>
+<a data-wizard-question="Can dragon fruit grow successfully in a pot?" href="#garden-wizard"><span>🐉</span><strong>Can dragon fruit grow in pots?</strong></a>
+</div>
+</section><section aria-labelledby="wizard-heading" class="wizard-v2" id="garden-wizard">
 <div class="wizard-v2-head">
 <div>
 <span class="eyebrow light">Plant problems welcome</span>
@@ -130,7 +161,49 @@
 <div class="btn-row"><a class="btn btn-light" href="https://www.instagram.com/dcwgrows" rel="noopener" target="_blank">Follow on Instagram</a><a class="btn btn-ghost" href="growingguide.html">Explore 45+ Guides</a></div>
 </section>
 </main>
-<footer><p>© 2026 DCW Grows · Plants, growing help, and garden magic from Southern California.</p></footer>
-<script defer="" src="dcw-ui-v5.js?v=20260715-5"></script>
+<footer class="site-footer">
+<div class="footer-grid">
+<div class="footer-brand">
+<a class="footer-logo" href="index.html"><img alt="DCW Grows" src="DCWGrowsLOGO.webp"/></a>
+<p>Healthy plants, practical growing help, and a little garden magic from Southern California.</p>
+<div class="footer-trust"><span>⭐ 4.9-star Etsy shop</span><span>📦 900+ sales</span></div>
+</div>
+<div>
+<h2>Explore</h2>
+<a href="shop.html">🪴 Shop Plants</a>
+<a href="growingguide.html">📚 Growing Guide</a>
+<a href="gardening101.html">🌱 New Gardeners Start Here</a>
+<a href="tips.html">🌿 Planting Tips</a>
+</div>
+<div>
+<h2>Get Help</h2>
+<a href="index.html#garden-wizard">🧙 Ask the Garden Wizard</a>
+<button class="footer-search site-search-trigger" type="button">🔎 Search the Site</button>
+<a href="seo.html">About DCW Grows</a>
+<a href="https://www.instagram.com/dcwgrows" rel="noopener" target="_blank">Instagram ↗</a>
+</div>
+</div>
+<div class="footer-bottom">
+<span>© 2026 DCW Grows</span>
+<span>Grow something good. 🌱</span>
+</div>
+</footer>
+<div class="site-search-modal" hidden="" id="siteSearchModal">
+<div class="search-backdrop" data-search-close=""></div>
+<section aria-labelledby="siteSearchTitle" aria-modal="true" class="search-dialog" role="dialog">
+<button aria-label="Close search" class="search-close" data-search-close="" type="button">×</button>
+<span class="eyebrow">Find it fast</span>
+<h2 id="siteSearchTitle">Search DCW Grows</h2>
+<label class="search-input-wrap">
+<span class="sr-only">Search plants, guides, and tips</span>
+<span aria-hidden="true">🔎</span>
+<input autocomplete="off" id="siteSearchInput" placeholder="Search plants, guides, and tips…" type="search"/>
+</label>
+<p class="search-hint">Try “dragon fruit,” “yellow leaves,” “tomato,” or “beginner.”</p>
+<div aria-live="polite" class="site-search-results" id="siteSearchResults"></div>
+</section>
+</div><a aria-label="Ask the Garden Wizard" class="floating-wizard" href="index.html#garden-wizard">
+<span aria-hidden="true">🌱</span><span>Ask the Wizard</span>
+</a><script defer="" src="dcw-ui-v7.js?v=20260715-7"></script>
 </body>
 </html>

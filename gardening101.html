@@ -1,15 +1,5 @@
 <!DOCTYPE html>
 
-<!DOCTYPE html>
-
-<!DOCTYPE html>
-
-<!DOCTYPE html>
-
-<!DOCTYPE html>
-
-<!DOCTYPE html>
-
 <html lang="en">
 <head>
 <meta charset="utf-8"/>
@@ -103,7 +93,7 @@
     }
     section ul{list-style-position:inside; padding-left:0}
   </style>
-<meta content="Learn the gardening basics: soil, sunlight, watering, fertilizer, raised beds, and simple lessons from the DCW Grows home garden." name="description"/><link href="https://www.dcwgrows.com/gardening101.html" rel="canonical"/><meta content="index, follow, max-image-preview:large" name="robots"/><meta content="summary_large_image" name="twitter:card"/><meta content="Gardening 101 | Start Growing with DCW Grows" name="twitter:title"/><meta content="Learn the gardening basics: soil, sunlight, watering, fertilizer, raised beds, and simple lessons from the DCW Grows home garden." name="twitter:description"/><meta content="https://www.dcwgrows.com/Socialmobileshare.jpg" name="twitter:image"/><script type="application/ld+json">[{"@context": "https://schema.org", "@type": "Organization", "name": "DCW Grows", "url": "https://www.dcwgrows.com/", "logo": "https://www.dcwgrows.com/DCWGrowsLOGO.webp", "sameAs": ["https://www.instagram.com/dcwgrows"]}, {"@context": "https://schema.org", "@type": "WebSite", "name": "DCW Grows", "url": "https://www.dcwgrows.com/"}]</script><link href="dcw-ui-v5.css?v=20260715-5" rel="stylesheet"/><link as="image" href="tropical-background.webp" rel="preload"/><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Gardening 101: How DCW Grows", "description": "Practical lessons about soil, fertilizer, watering, and growing from the DCW Grows garden.", "author": {"@type": "Organization", "name": "DCW Grows"}, "publisher": {"@type": "Organization", "name": "DCW Grows", "logo": {"@type": "ImageObject", "url": "https://www.dcwgrows.com/DCWGrowsLOGO.webp"}}, "mainEntityOfPage": "https://www.dcwgrows.com/gardening101.html"}</script></head>
+<meta content="Learn the gardening basics: soil, sunlight, watering, fertilizer, raised beds, and simple lessons from the DCW Grows home garden." name="description"/><link href="https://www.dcwgrows.com/gardening101.html" rel="canonical"/><meta content="index, follow, max-image-preview:large" name="robots"/><meta content="summary_large_image" name="twitter:card"/><meta content="Gardening 101 | Start Growing with DCW Grows" name="twitter:title"/><meta content="Learn the gardening basics: soil, sunlight, watering, fertilizer, raised beds, and simple lessons from the DCW Grows home garden." name="twitter:description"/><meta content="https://www.dcwgrows.com/Socialmobileshare.jpg" name="twitter:image"/><script type="application/ld+json">[{"@context": "https://schema.org", "@type": "Organization", "name": "DCW Grows", "url": "https://www.dcwgrows.com/", "logo": "https://www.dcwgrows.com/DCWGrowsLOGO.webp", "sameAs": ["https://www.instagram.com/dcwgrows"]}, {"@context": "https://schema.org", "@type": "WebSite", "name": "DCW Grows", "url": "https://www.dcwgrows.com/"}]</script><link href="dcw-ui-v7.css?v=20260715-7" rel="stylesheet"/><link as="image" href="tropical-background.webp" rel="preload"/><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Gardening 101: How DCW Grows", "description": "Practical lessons about soil, fertilizer, watering, and growing from the DCW Grows garden.", "author": {"@type": "Organization", "name": "DCW Grows"}, "publisher": {"@type": "Organization", "name": "DCW Grows", "logo": {"@type": "ImageObject", "url": "https://www.dcwgrows.com/DCWGrowsLOGO.webp"}}, "mainEntityOfPage": "https://www.dcwgrows.com/gardening101.html"}</script></head>
 <body><a class="skip-link" href="#main-content">Skip to content</a>
 <!-- Header -->
 <header class="site-header">
@@ -128,12 +118,28 @@
 <a href="tips.html">Planting Tips</a>
 <a href="seo.html">About</a>
 <a href="https://www.instagram.com/dcwgrows" rel="noopener" target="_blank">Instagram</a>
-<a class="wizard-nav" href="index.html#garden-wizard">🌱 Ask the Garden Wizard</a>
+<button aria-label="Search DCW Grows" class="site-search-trigger nav-search" type="button">🔎 <span>Search</span></button><a class="wizard-nav" href="index.html#garden-wizard">🌱 Ask the Garden Wizard</a>
 </div>
 </nav>
 </header>
 <!-- Header scripts (same behavior as shop.html, with desktop navigation enabled) -->
-<script>
+<div class="site-search-modal" hidden="" id="siteSearchModal">
+<div class="search-backdrop" data-search-close=""></div>
+<section aria-labelledby="siteSearchTitle" aria-modal="true" class="search-dialog" role="dialog">
+<button aria-label="Close search" class="search-close" data-search-close="" type="button">×</button>
+<span class="eyebrow">Find it fast</span>
+<h2 id="siteSearchTitle">Search DCW Grows</h2>
+<label class="search-input-wrap">
+<span class="sr-only">Search plants, guides, and tips</span>
+<span aria-hidden="true">🔎</span>
+<input autocomplete="off" id="siteSearchInput" placeholder="Search plants, guides, and tips…" type="search"/>
+</label>
+<p class="search-hint">Try “dragon fruit,” “yellow leaves,” “tomato,” or “beginner.”</p>
+<div aria-live="polite" class="site-search-results" id="siteSearchResults"></div>
+</section>
+</div><a aria-label="Ask the Garden Wizard" class="floating-wizard" href="index.html#garden-wizard">
+<span aria-hidden="true">🌱</span><span>Ask the Wizard</span>
+</a><script>
     // Mobile menu toggle
     const menuToggle = document.getElementById('menuToggle');
     const menu = document.getElementById('menu');
@@ -246,8 +252,32 @@
 <p>We love plants — like, it’s a full-blown obsession. Honestly, if we leave Lowe’s without a new plant, it’s a major accomplishment. We want you to feel that same excitement when it comes to your garden — and we’re here to help you get there. 🌿💚</p>
 </section>
 <!-- Footer -->
-<footer>
-<p>© 2026 DCW Grows | All rights reserved</p>
+<footer class="site-footer">
+<div class="footer-grid">
+<div class="footer-brand">
+<a class="footer-logo" href="index.html"><img alt="DCW Grows" src="DCWGrowsLOGO.webp"/></a>
+<p>Healthy plants, practical growing help, and a little garden magic from Southern California.</p>
+<div class="footer-trust"><span>⭐ 4.9-star Etsy shop</span><span>📦 900+ sales</span></div>
+</div>
+<div>
+<h2>Explore</h2>
+<a href="shop.html">🪴 Shop Plants</a>
+<a href="growingguide.html">📚 Growing Guide</a>
+<a href="gardening101.html">🌱 New Gardeners Start Here</a>
+<a href="tips.html">🌿 Planting Tips</a>
+</div>
+<div>
+<h2>Get Help</h2>
+<a href="index.html#garden-wizard">🧙 Ask the Garden Wizard</a>
+<button class="footer-search site-search-trigger" type="button">🔎 Search the Site</button>
+<a href="seo.html">About DCW Grows</a>
+<a href="https://www.instagram.com/dcwgrows" rel="noopener" target="_blank">Instagram ↗</a>
+</div>
+</div>
+<div class="footer-bottom">
+<span>© 2026 DCW Grows</span>
+<span>Grow something good. 🌱</span>
+</div>
 </footer>
 <!-- JavaScript -->
 <script>
@@ -260,5 +290,5 @@
             document.getElementById('submenu').classList.toggle('active');
         }
     </script>
-<script defer="" src="dcw-ui-v5.js?v=20260715-5"></script></body>
+<script defer="" src="dcw-ui-v7.js?v=20260715-7"></script></body>
 </html>
