@@ -4,7 +4,7 @@
   const menu=document.querySelector('#menu,#dcwMenu,.menu,.dcw-menu');
   if(toggle&&menu){
     if(toggle.tagName!=='BUTTON'){toggle.setAttribute('role','button');toggle.setAttribute('tabindex','0')}
-    const act=()=>{const open=menu.classList.toggle('active');toggle.setAttribute('aria-expanded',String(open));};
+    const act=()=>{const open=menu.classList.toggle('active');toggle.setAttribute('aria-expanded',String(open));toggle.setAttribute('aria-label',open?'Close navigation menu':'Open navigation menu');};
     toggle.addEventListener('click',act);toggle.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();act();}});
   }
   const drop=document.querySelector('#dropdown,#dcwDropdown,.dropdown,.dcw-dropdown');
